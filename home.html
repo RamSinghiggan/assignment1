@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- This is the website created by ...... -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ram iggan 370</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+      <div id="coantainermain">
+
+        <!-- this is the header section -->
+          <header>
+              <div id="navbar" class="desktop"> 
+                  <a href="home.html">Ram Singh Iggan<img src="images/logo11.png" alt="Rs_Chakar" height="20% " width="20%" ></a>
+          
+                  <div id="navbar-right" class="desktop">
+                    <a href="home.html">Home</a>
+                    <a href="study.html">Qualification</a>
+                    <a href="work.html">Work Experience</a>
+                  </div>
+              </div>
+           
+
+
+            <nav>
+              <ul>
+                  <li><a href="home.html">Home</a> </li>
+                  <li>
+                      <a href="study.html">Study</a>
+                  </li>
+                  <li><a href="work.html">Work</a></li>
+              </ul>
+          </nav>
+          </header>
+       <!-- this is the Banner section -->
+       <div class="banner desktop">
+        
+          <img class="mySlides" src="images/banner.jpg" >
+          <img class="mySlides" src="images/banner2.jpg" >
+          <img class="mySlides" src="images/banner1.jpg" >
+        </div>
+        
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "inline";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script>
+        <!-- <img src="images/banner.jpg" alt="home banner image" class="desktop"/> -->
+       </div>
+      
+        <!-- this is the main  section -->
+        <main>
+          
+            <section>
+                <div class="desktop">
+            <div class="introimg">
+                <img src="images/dp.png" height="90%" width="85%">
+            </div>
+            <div class="intro">
+              
+            <h3 class="black">
+                Hi Everyone ,Im Ram Singh Iggan 
+            </h3>
+            <div >
+             <p>
+                 This is my first Blog ,which i created using HTML & CSS as an assignment under the guidance of my Prof.Mohammad Kiani.
+                 <br>
+                 <br>
+                 I am 24 years old Sardar Punjabi boy from India , I done my enggenering in Computer science from north India's best college
+                 and im passionate in arts as well.
+             </p>
+            </div>
+             </div>
+             <br><br>
+             <div class="hometxt">
+<p>
+    In this Blog i created two pages ,one will display my education and qualifiacation and another will show my experience in different fields.
+<h4 >More about me</h4>
+Both my parents are teacher in india and i have one elder sister,she is graduate in nursing and nowdays working in Canada.
+I love to discover the mysteries of the universe ,our subconcious powers and to observe the mother nature,fortunately this wills helping me to develop new skills like photography
+from which i can hold and capture the moments,emotions and can eye more deeply to everything.
+</p>
+<p>
+    Along with this im a soccer player,i played for my school and village.I believe that one can learn the major priciples of life in sports and a healthy body and peaceful productive mind you earn in sports.
+    Strength,stamina,courage,madness,hopes,happiness,sad,win,loose,being social,helping yourself and others ,these are brief trades that one can learn in sports.
+    To Dicover more about me ,surf throw all my pages and follow me on social media accounts ,that provided in footer.
+</p>
+<h3>Thanks for Visit</h3>
+             </div>
+            </div>
+            </section>
+
+            <aside class="desktop" >
+                <h4> Discover More...</h4>
+                <ol>
+                    <li>
+                        <a href="study.html">
+                           Qualification</a>
+                    </li>
+                    <br>
+
+                    <li>
+                        <a href="work.html"> Work Experience</a>
+                    </li>
+                    </ol>
+            
+                  
+            </aside>
+        </main>
+
+
+
+
+        <div class="mobile">
+          <h4 class="black">
+              Hi Everyone ,Im Ram Singh Iggan 
+          </h4>
+          <p>
+              This is my first Blog ,which i created using HTML & CSS as an assignment under the guidance of my Prof.Mohammad Kaini.
+              <br>
+              <br>
+              I am 24 years old Sardar Punjabi boy from India , I done my engineering in Computer science from north india's best college
+              and im passionate in arts as well.
+          </p>
+          <h4>My Passion</h4>
+          <ul>
+              <li>Sports</li>
+              <li>Arts</li>
+              <li>Reading</li>
+          </ul>
+      </div>
+
+
+
+
+
+      <!-- this is footer section -->
+        <footer>
+            <audio controls autoplay class="desktop">
+                <source src="media/ffc_aud.mp3" type="audio/mp3" />
+                <source src="media/ffc_aud.ogg" type="audio/ogg" />
+                <source src="media/ffc_aud.wav" type="audio/wav" />
+                <p>Your browser does not support the audio element</p>
+              </audio>
+          <div class="copyright">
+              <p>
+                &copy; Copyright 2020. All Rights reserved. <br />
+              Ram Singh Iggan
+              </p>
+            </div>
+           <div id="social" class="desktop">
+              <p>Connect with me:</p>
+              <p>
+                <a href="https://www.facebook.com/ramchakar"
+                  ><img src="images/fblogo.png" alt="Facebook Logo" 
+                /></a>
+                <a href="https://www.instagram.com/rs_chakar/"
+                  ><img src="images/instaa.png" alt="Twitter Logo"
+                /></a>
+              </p>
+            </div>
+          </footer>
+          
+      </div>
+      
+  </body>

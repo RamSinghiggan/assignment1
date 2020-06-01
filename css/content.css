@@ -1,0 +1,374 @@
+#containermain{
+    margin: auto;
+    width: 100%;
+ }
+ 
+ 
+ .banner img{
+  max-width: 100%;
+  margin-top:100px ;
+}
+ #navbar{
+     overflow: hidden;
+     background-color: #f1f1f1;
+    padding: 0.5em; 
+     transition: 0.4s;
+     position: fixed; 
+     width: 100%; 
+     top: 0;
+     z-index: 99;
+     margin-top: -1.7em;
+   }
+   
+   #navbar a {
+     float: left;
+     color: black;
+     text-align: center;
+      padding: 12px;
+     margin-top: 30px; 
+     text-decoration: none;
+     font-size: 18px; 
+     line-height: 25px;
+     border-radius: 4px;
+   }
+   
+   #navbar #logo {
+     font-size: 35px;
+     font-weight: bold;
+     transition: 0.4s;
+   }
+   
+   #navbar a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+   #navbar a.active {
+     background-color: rgb(255, 30, 143);
+     color: white;
+   }
+ #navbar-right{
+     
+     float: right;
+     padding: 0.5em;
+     margin: 0.5em;
+     margin-top: 30px;
+    
+    
+ }
+ #navbar-right a:hover {
+     background-color: rgb(5, 190, 252);
+     color: white;
+     border-radius: 2em;
+   }
+ 
+
+   
+
+ section{
+     width: 70%;
+     float: left;
+ }
+ aside{
+     width: 30%;
+     float: left;
+     color: black;
+     text-decoration: none;
+     background-color: rgb(238, 236, 234);
+     border-radius: 5em 5em 5em 5em;
+     padding: 1.5em;
+     box-shadow:#4c4f4d 1em 1em 1em ;
+     margin: 1em;
+ }
+h4{
+    color: black;
+}
+
+ ol{
+     text-align: center;
+     color:black;
+ }
+ li a{
+     color: black;
+     font-size: x-large;
+     
+ }
+ footer{
+    
+     background-color: black;
+     padding: 20px;
+ }
+ footer p{
+     text-align: center;
+         color: #ffffff;
+         text-decoration: none;
+       
+ }
+ 
+ 
+ main h3{
+    
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+     padding: 0.5em;
+     text-align: center;
+ }
+   
+ 
+ .introimg{
+     float: left;
+     width: 30%;
+ }
+ .intro{
+     width: 70%;
+     float: left;
+ }
+ .intro p{
+     color:white;
+     float: right;
+     text-align: left;
+     font-size: 16px;
+ }
+ main p{
+     color: white;
+ }
+ .hometxt h4{
+     text-align: center;
+     text-decoration: underline;
+ }
+ .desktop{
+     display: none;
+ }
+ .mobile{
+     display: inline;
+
+ }
+ .display-flex{
+     display: flex;
+ }
+ .tablet{
+   display: none;
+ }
+ 
+
+
+   table {
+    border: 0.1em solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* styles for the th and tr */
+  th {
+    border: 0.1em solid #000000;
+    padding: 1em;
+    color: black;
+  }
+  td {
+    border: 0.1em solid #000000;
+    padding: 1em;
+  }
+
+  /* styles for the th */
+  td {
+    background-color: #1d1d1c;
+    color: #ffffff;
+  }
+
+  /* styles for the table caaption */
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    color: black;
+  }
+
+
+
+article p{
+    color: black;
+    font-family: monospace;
+    font-style: italic;
+}
+
+article{
+  border-radius: 1em;
+  width: 33%;
+  background-color: rgb(252, 250, 248);
+ padding: 0.5em;
+ margin: 0.2em;
+ box-shadow:#4c4f4d 1em ;
+}
+article img{
+  border-radius: 13em;
+}
+
+
+
+
+
+
+nav {
+  font-family:  sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -1.5px;
+  display: block;
+}
+
+
+/* style specifie the padding and margin in undored list of nav  */
+
+nav ul {
+  padding: 0;
+  /* margin-top: 0.5em; */
+  margin-bottom: 0, 5em;
+}
+
+
+/* style for the li in nav */
+
+nav li {
+  background-color:crimson;
+  border-radius: 2em;
+  margin: 0.3em;
+  padding: 0.4em;
+  list-style-type: none;
+}
+
+
+/* for the anchor tag in li */
+
+nav li a {
+  text-decoration: none;
+}
+
+
+/* when the link is visted */
+
+nav li a:visited {
+  color: white
+}
+
+
+/* when hover over link */
+
+nav li a:hover {
+  font-style: italic;
+  color: aqua;
+}
+
+
+/* when link is active */
+
+nav li a:active {
+  color: rgb(119, 172, 51)
+}
+
+
+
+
+
+
+.black{
+  color: #000000;
+}
+
+
+
+ @media only screen and (min-width: 688px) {
+
+ .black{
+    color: black;
+  }
+  /* styles for main */
+  main {
+    clear: left;
+   
+    border-radius: 0;
+    overflow: auto;
+  }
+ 
+      .mobile{
+         display: none;
+     } 
+     .desktop{
+         display:inline;
+     }
+     .tablet {
+      display: block;
+      /* margin-top: -3em; */
+      margin-bottom: -1em;
+    }
+  .workarticle{
+    display: flex;
+    
+}
+
+
+nav {
+  float: left;
+  margin-top: -3em;
+  padding-left: 7em;
+}
+/* style for ul in nav */
+nav ul {
+  margin: 0;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+/* style for list items  in nav */
+nav li {
+  background-color: transparent;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+  width: 20%;
+}
+/* style for anchor tag inside nav li */
+nav li a {
+  padding: 0.7em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-shadow: 1px 1px;
+  font-weight: bold;
+  font-size: large;
+}
+/* when the link is visted */
+nav li a:visited {
+  color: rgb(221, 125, 14);
+}
+/* when hover over link */
+nav li a:hover {
+  font-style: italic;
+  color: rgb(204, 39, 39);
+}
+/* when link is active */
+nav li a:active {
+  color: rgb(78, 105, 42)
+}
+ }
+ 
+ @media only screen and (min-width: 989px){
+
+   main{
+       background-image: linear-gradient(white,#27f0d1);
+     
+   }
+   th {
+    border: 0.1em solid #000000;
+    padding: 1em;
+  }
+
+
+    
+.tablet {
+  display: inline;
+}
+  /* styles for the th and tr */
+
+ }
